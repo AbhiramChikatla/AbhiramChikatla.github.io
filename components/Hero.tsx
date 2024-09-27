@@ -71,14 +71,14 @@ const Hero = () => {
                         Hi! I&apos;m Abhiram, a Full Stack Web Developer.
                     </p>
 
-                    <a href="#about">
+                    {/* <a href="#about"> */}
                         <MagicButton
                             handleClick={handleClick}
                             title="Download Resume"
                             icon={<FaLocationArrow />}
                             position="right"
                         />
-                    </a>
+                    {/* </a> */}
                 </div>
             </div>
         </div>
