@@ -128,14 +128,10 @@ export const projects = [
     },
     {
         id: 5,
-        title: "AutoGram: An Automated Instagram Channel",
+        title: "An Automated Instagram Channel",
         des: "An automated Instagram channel that posts daily photos using Python scripts, ensuring consistent and timely content updates",
         img: "/instagram.jpg",
-        iconLists: [
-            "/pyt.png",
-            "/api.png",
-           
-        ],
+        iconLists: ["/pyt.png", "/api.png"],
         link: "/ui.apple.com",
     },
     {
@@ -143,13 +139,16 @@ export const projects = [
         title: "Arduino Solar Tracker",
         des: "A solar tracking system powered by Arduino that automatically adjusts the position of solar panels to follow the sun, maximizing energy capture and efficiency",
         img: "/solar.jpg",
-        iconLists: [
-            "/c-.png",
-            "/ard.png",
-            "/chip.png",
-           
-        ],
+        iconLists: ["/c-.png", "/ard.png", "/chip.png"],
         link: "https://github.com/AbhiramChikatla/Arduino-Solar-Tracker.git",
+    },
+    {
+        id: 8,
+        title: "Spotify Clone",
+        des: "This is a Spotify Clone application that replicates the core functionality of Spotify, allowing users to browse, search, and listen to music. The app also supports playlist management, and a sleek music player interface.",
+        img: "/spotify.jpg",
+        iconLists: ["/html.png", "/css.png", "/js.png"],
+        link: "https://github.com/AbhiramChikatla/Spotify_Clone.git",
     },
     {
         id: 7,
